@@ -1,0 +1,20 @@
+#include<graphics.h>
+#include<conio.h>
+#include<dos.h>
+#include<stdlib.h>
+void main()
+{
+int gd=0,gm;
+initgraph(&gd,&gm,"C:\\TC\\BGI");
+while(!kbhit())
+{
+sound(random(2000));
+setcolor(random(16));
+setbkcolor(random(16));
+settextstyle(random(5),random(2),random(10));
+outtextxy(random(640),random(480),"Satyam");
+delay(100);
+}
+nosound();
+}
+

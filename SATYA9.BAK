@@ -1,0 +1,11 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+printf("%d\n",32767);
+if(32767<=32766)puts("ture");
+else puts("flase");
+getch();
+}
+

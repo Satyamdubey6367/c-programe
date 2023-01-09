@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+void main()
+{
+int n;
+clrscr();
+printf("enter a no");
+scanf("%d",&n);
+printf("absolute value=%d", abs(n));
+getch();
+
+}

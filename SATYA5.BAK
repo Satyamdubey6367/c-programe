@@ -1,0 +1,12 @@
+#include<stdio.h>
+#include<conio.h>
+#define p printf
+
+void main()
+{
+clrscr();
+if(p("satyam"))
+{
+}
+getch();
+}
